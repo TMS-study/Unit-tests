@@ -54,13 +54,13 @@ export default class Tests {
     static testMultyOne() {
         let num = new Calc(5, 0, '*');
         let result1 = num.doMultiplication()
-        if (result1 === 5) {
+        if (result1 === 0) {
             return 'Passed testMultyOne'
         } else 'Failed testMultyOne'
     }
     
     static testMultyTwo() {
-        let num = new Calc(2, 2 ** 3, '*');
+        let num = new Calc(2, 2**3, '*');
         let result1 = num.doMultiplication()
         if (result1 === 16) {
             return 'Passed testMultyTwo'
